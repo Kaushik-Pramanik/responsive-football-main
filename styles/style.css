@@ -17,9 +17,7 @@ h1{
     color: white;
     font-weight: 700;
 }
-.header-file{
-    /* display: flex;
-    justify-content: space-evenly; */
+.header-file{    
     display: grid;
     grid-template-columns: repeat(2,1fr);
     background-color: #2D25A0;
@@ -90,4 +88,18 @@ footer{
 }
 #copyright{
     color: black;
+}
+/* media queries */
+/* mobile devices */
+@media only screen and (max-width:688px) {
+    .container {
+        width: 100%;
+    }
+    .players, .header-file{
+        grid-template-columns: repeat(1, 1fr);
+        padding:0%;
+    }
+    .player{
+        flex-direction:column;
+    } 
 }

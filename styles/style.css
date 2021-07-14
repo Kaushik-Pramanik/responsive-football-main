@@ -95,9 +95,12 @@ footer{
     .container {
         width: 100%;
     }
-    .players, .header-file{
+    .players, .header-file, h1{
         grid-template-columns: repeat(1, 1fr);
         padding:0%;
+    }
+    h1{
+        font-size: 100%;
     }
     .player{
         flex-direction:column;

@@ -101,7 +101,4 @@ footer{
     .player, .header-title, .flex, h1, footer{
         flex-direction:column;
     } 
-   #footer-img{
-       image-resolution: 400px;
-   }
 }

@@ -69,11 +69,7 @@ p{
     justify-content: center;
     margin-top: 90px;
 }
-.final-match{
-    width: 560;
-    height: 315;
-    margin-left: 100px;
-}
+
 .join-us{
     text-align: center;
     margin-top: 30px;
@@ -95,14 +91,17 @@ footer{
     .container {
         width: 100%;
     }
-    .players, .header-file, h1{
+    .players, .header-file, .flex, h1, footer{
         grid-template-columns: repeat(1, 1fr);
         padding:0%;
     }
     h1{
         font-size: 100%;
     }
-    .player{
+    .player, .header-title, .flex, h1, footer{
         flex-direction:column;
     } 
+   #footer-img{
+       image-resolution: 400px;
+   }
 }
